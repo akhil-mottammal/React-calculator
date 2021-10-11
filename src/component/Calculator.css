@@ -1,8 +1,8 @@
 .container{
     width: 307px;
-    height: 60vh;
+    
     background-color: black;
-    padding: 15px 9px;
+    padding: 20px 10px;
     border-radius: 10px;
     box-shadow: 10px 10px 12px 6px #424141;
     text-align: center;
