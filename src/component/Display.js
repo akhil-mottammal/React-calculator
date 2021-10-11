@@ -1,9 +1,9 @@
 import React from 'react'
 import './display.css'
-function Display() {
+function Display(props) {
     return (
         <div className="display">
-            <h2>0123</h2>
+            <h2>{props.input}</h2>
         </div>
     )
 }

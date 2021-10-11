@@ -1,11 +1,13 @@
 import React from 'react'
 import './button.css'
-function Button() {
+function Button({symbol,clickHandler}) {
     return (
-        <button className="button">
-            5
+        <button onClick={()=>clickHandler(symbol)} className="button">
+            {symbol}
+
         </button>
     )
 }
 
 export default Button
+ 
